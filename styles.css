@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Bad Script', cursive;
+  color: white;
+  margin: 0.5%;
+  text-align: center;
+}
+.images{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: nowrap;
+  margin-left: 28%;
+}
+img{
+  height: 400px;
+   width: 600px;
+   margin: 5px;
+   object-fit:cover;
+}
+@media screen and (max-width:900px){
+  .images{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: nowrap;
+    margin-left: 22%;
+    margin-right: 25%;
+  }
+}
+@media screen and (max-width:900px){
+  img{
+    height: 200px;
+     width: 300px;
+     margin: 2.5px;
+     object-fit:cover;
+  }
+}
+
+div{
+  background-color: black;
+}
